@@ -331,7 +331,7 @@ PRODUCT_PACKAGES += \
     GoogleCamera
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/system/etc/permissions/org.codeaurora.snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.codeaurora.snapcam.xml
+    $(LOCAL_PATH)/prebuilts/system/etc/permissions/com.google.android.GoogleCameraEng.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.GoogleCameraEng.xml
 
 # Privapp Whitelist
 PRODUCT_COPY_FILES += \
